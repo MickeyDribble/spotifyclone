@@ -61,12 +61,12 @@ svg {
     padding-left:15%;
 }
 p {
-    font-size:156px;
+    font-size:120px;
     line-height: 166px;
     display:block;
     font-weight:900;
     font-family: 'Montserrat',sans-serif;
-    text-indent: -1.3em;
+    text-indent: -2.1em;
 }
 
 #button {
@@ -88,19 +88,23 @@ button {
     
 }
 
-button:hover {
-    padding:22px
-}
+
 
 li {
     list-style: none;
+    
 }
 
 li,a,i{
     color:white;
+    text-decoration: none;
 }
 
-p,h2 {
+i:hover {
+    cursor:pointer
+}
+
+p,h2,a:hover,i:hover {
     color:rgb(30,215,96)
 }
 
@@ -111,6 +115,21 @@ h2 {
     margin:50px
 
 }
+
+footer {
+    display:flex;
+    justify-content:space-around;
+    background-color: black;;
+    padding:80px 20% 50px;
+    
+    
+}
+
+
+
+
+
+
 
 
 
