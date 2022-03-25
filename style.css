@@ -12,7 +12,7 @@ body {
     background-size: 170%;
     background-position: 44% 7%;
 
-/* NAVBAR========================== */
+
 }
 nav {
     display:flex;
@@ -34,10 +34,6 @@ nav {
 
 }
 
-.navlinks a:hover {
-    color:rgb(30,215,96)
-}
-
 .line {
     display:inline-block;
     width:1px;
@@ -50,28 +46,22 @@ svg {
     fill:white
 }
 
-/* Main Body======================== */
-
 .container {
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction:column;
-    padding-top:10%;
+
     padding-left:15%;
+    height:100vh
 }
+
 p {
     font-size:120px;
     line-height: 166px;
-    display:block;
     font-weight:900;
     font-family: 'Montserrat',sans-serif;
     text-indent: -2.1em;
-}
-
-#button {
-    display:flex;
-    justify-content:center;
 }
 
 button {
@@ -80,28 +70,31 @@ button {
     border:none;
     padding:20px;
     margin:20px;
+    margin-right:17%;
     width:10%;
     color:darkblue;
     font-size:12px;
     font-weight:bolder;
-    transition-duration: 0.2s;
-    
+      
 }
-
-
 
 li {
     list-style: none;
     
 }
 
-li,a,i{
+li,a,i,h3{
     color:white;
     text-decoration: none;
 }
 
 i:hover {
     cursor:pointer
+}
+
+h3 {
+    opacity: 0.4;
+    margin-bottom: 0.4em;
 }
 
 p,h2,a:hover,i:hover {
@@ -121,9 +114,26 @@ footer {
     justify-content:space-around;
     background-color: black;;
     padding:80px 20% 50px;
-    
+    position:relative;
+}
+
+#bottom {
+    display:flex;
+    position:absolute;
+    bottom:0;
+    margin: 0.4;
+    opacity: 0.4;
+    font-size: small;
+
     
 }
+
+
+    
+    
+    
+    
+
 
 
 
